@@ -1,0 +1,24 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 80px;
+  padding: 10px 0;
+  text-align: center;
+  background: #eee;
+  color: #444;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  color: #ff5252;
+}
+
+.control-panel {
+  margin-top: 20px;
+}
+
+.col-md-8 object {
+  margin: 20px auto;
+  display: block;
+}
