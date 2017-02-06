@@ -1,0 +1,24 @@
+{
+  "name": "home-automation",
+  "version": "0.0.1",
+  "description": "home automation testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodex index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lelea2/home-automation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lelea2/home-automation/issues"
+  },
+  "homepage": "https://github.com/lelea2/home-automation#readme",
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.14.1",
+    "nodemon": "^1.11.0"
+  }
+}
