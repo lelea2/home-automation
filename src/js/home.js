@@ -1,0 +1,4 @@
+//Home object
+window.HOME = {
+
+};

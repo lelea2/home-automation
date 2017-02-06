@@ -1,5 +1,4 @@
 .footer {
-  position: fixed;
   bottom: 0;
   height: 80px;
   padding: 10px 0;
@@ -15,7 +14,8 @@ h2 {
 }
 
 .control-panel {
-  margin-top: 20px;
+  margin: 20px auto;
+  display: block;
 }
 
 .col-md-8 object {
