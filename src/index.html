@@ -14,7 +14,7 @@
         <div class="control-panel">
           <div class="col-md-4">
             <h3>Home Control Panel</h3>
-            <div class="control-room-panel">
+            <div id="control-room-panel">
             </div>
           </div>
           <div class="col-md-8">
@@ -28,7 +28,11 @@
       </footer>
     </div>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="../js/home.js"></script>
     <script src="../js/main.js"></script>
+    <script>
+      $(document).ready(function() {
+        HOME_CONTROL.init();
+      });
+    </script>
   </body>
 </html>
