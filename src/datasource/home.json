@@ -1,0 +1,51 @@
+{
+  "sundeck": {
+    "title": "Sun Deck",
+    "id": "path2921",
+    "light": true,
+    "temperature": false,
+    "curtain": false
+  },
+  "fdr_bedroom": {
+    "title": "Main Bedroom",
+    "id": "rect2913",
+    "light": true,
+    "temperature": true,
+    "curtain": true
+  },
+  "sec_bedroom": {
+    "title": "Second Bedroom",
+    "id": "path9173",
+    "light": true,
+    "temperature": true,
+    "curtain": true
+  },
+  "er_bedroom": {
+    "title": "Third Bedroom",
+    "id": "path12742",
+    "light": true,
+    "temperature": true,
+    "curtain": true
+  },
+  "livingroom": {
+    "title": "Living Room",
+    "id": "path10951",
+    "light": true,
+    "temperature": true,
+    "curtain": true
+  },
+  "entrance_hall": {
+    "title": "Entrance Hall",
+    "id": "rect2905",
+    "light": true,
+    "temperature": true,
+    "curtain": false
+  },
+  "kitchen": {
+    "title": "Kitchen",
+    "id": "path5621",
+    "light": true,
+    "temperature": true,
+    "curtain": true
+  }
+}

@@ -1,4 +1,0 @@
-//Home object
-window.HOME = {
-
-};
