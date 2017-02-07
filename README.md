@@ -8,7 +8,6 @@ Image from: https://en.m.wikipedia.org/wiki/File:Little_White_House_floor_plan.s
 Tested on Mac:
 * Chrome
 * FF
-* Safari
 
 #### How to run
 

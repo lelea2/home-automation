@@ -8,6 +8,14 @@ var HOME_HANDLER = (function($) {
 
   var module;
 
+  //Check if room color is transparent, turn color on before room action
+  function fillRoomColor(element) {
+    var bg = element.style.fill || '';
+    if (bg === '' || bg === 'transparent') {
+      element.style.fill = '#ffff32';
+    }
+  }
+
   /**
    * Function handle light in the room
    * @method handleLight
@@ -20,6 +28,7 @@ var HOME_HANDLER = (function($) {
       url = '/datasource/lightoff.json';
     }
     $.get(url, function(data) {
+      fillRoomColor(element);
       element.style.opacity = data.opacity;
     });
   }
@@ -31,6 +40,7 @@ var HOME_HANDLER = (function($) {
   function handleCurtain(element, status) {
     $.get('/datasource/curtain.json', function(data) {
       var currOpacity = element.style.opacity;
+      fillRoomColor(element);
       if (status) { //Curtain closed
         element.style.opacity = currOpacity - data.opacity;
       } else {
