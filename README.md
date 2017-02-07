@@ -5,6 +5,11 @@ A JavaScript application simulating house automation: pressing a button on a con
 
 Image from: https://en.m.wikipedia.org/wiki/File:Little_White_House_floor_plan.svg
 
+Tested on Mac:
+* Chrome
+* FF
+* Safari
+
 #### How to run
 
 **With nodejs server**
