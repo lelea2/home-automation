@@ -24,3 +24,10 @@ PORT=3000 nodemon index.js
 http://localhost:3000/index.html
 
 ```
+
+#### Test case:
+* On load, all rooms background should be transparent
+* If you turn on the light, and the room has no background filtered, background change to yellow
+* If temperature > 70, room background changes to red
+* If temperature < 60, room background changes to blue
+* Opacity of the room changed based on light and curtain action
