@@ -9,6 +9,10 @@ Tested on Mac:
 * Chrome
 * FF
 
+Deployed:
+
+* https://home-automation-khanh.herokuapp.com
+
 #### How to run
 
 **With nodejs server**
@@ -20,5 +24,3 @@ PORT=3000 nodemon index.js
 http://localhost:3000/index.html
 
 ```
-
-**Without nodejs server**
