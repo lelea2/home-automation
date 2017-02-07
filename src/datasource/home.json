@@ -2,50 +2,110 @@
   "sundeck": {
     "title": "Sun Deck",
     "id": "path2921",
-    "light": true,
-    "temperature": false,
-    "curtain": false
+    "light": {
+      "enabled": true,
+      "label": "Sun Deck light on"
+    },
+    "temperature": {
+      "enabled": false
+    },
+    "curtain": {
+      "enabled": false
+    }
   },
   "fdr_bedroom": {
     "title": "Main Bedroom",
     "id": "rect2913",
-    "light": true,
-    "temperature": true,
-    "curtain": true
+    "light": {
+      "enabled": true,
+      "label": "Main bedroom lighton"
+    },
+    "temperature": {
+      "enabled": true,
+      "label": "Turn on heat"
+    },
+    "curtain": {
+      "enabled": true,
+      "label": "Curtain closed"
+    }
   },
   "sec_bedroom": {
     "title": "Second Bedroom",
     "id": "path9173",
-    "light": true,
-    "temperature": true,
-    "curtain": true
+    "light": {
+      "enabled": true,
+      "label": "Second Bedroom lighton"
+    },
+    "temperature": {
+      "enabled": true,
+      "label": "Turn on heat"
+    },
+    "curtain": {
+      "enabled": true,
+      "label": "Close curtain"
+    }
   },
   "er_bedroom": {
     "title": "Third Bedroom",
     "id": "path12742",
-    "light": true,
-    "temperature": true,
-    "curtain": true
+    "light": {
+      "enabled": true,
+      "label": "Third Bedroom lighton"
+    },
+    "temperature": {
+      "enabled": true,
+      "label": "Turn on heat"
+    },
+    "curtain": {
+      "enabled": true,
+      "label": "Close curtain"
+    }
   },
   "livingroom": {
     "title": "Living Room",
     "id": "path10951",
-    "light": true,
-    "temperature": true,
-    "curtain": true
+    "light": {
+      "enabled": true,
+      "label": "Livingroom lighton"
+    },
+    "temperature": {
+      "enabled": true,
+      "label": "Turn on heat"
+    },
+    "curtain": {
+      "enabled": true,
+      "label": "Close curtain"
+    }
   },
   "entrance_hall": {
     "title": "Entrance Hall",
     "id": "rect2905",
-    "light": true,
-    "temperature": true,
-    "curtain": false
+    "light": {
+      "enabled": true,
+      "label": "Entrance hall lighton"
+    },
+    "temperature": {
+      "enabled": true,
+      "label": "Turn on heat"
+    },
+    "curtain": {
+      "enabled": false
+    }
   },
   "kitchen": {
     "title": "Kitchen",
     "id": "path5621",
-    "light": true,
-    "temperature": true,
-    "curtain": true
+    "light": {
+      "enabled": true,
+      "label": "Kitchen lighton"
+    },
+    "temperature": {
+      "enabled": true,
+      "label": "Turn on fan"
+    },
+    "curtain": {
+      "enabled": true,
+      "label": "Close curtain"
+    }
   }
 }

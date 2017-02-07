@@ -22,3 +22,17 @@ h2 {
   margin: 20px auto;
   display: block;
 }
+
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  cursor: pointer;
+}
+
+ul label {
+  margin-left: 10px;
+  cursor: pointer;
+}
