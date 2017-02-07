@@ -28,9 +28,15 @@ var HOME_CONTROL = (function($) {
       }
       var finalHTML = arr.join('');
       $('#control-room-panel').html(finalHTML);
+      //Bind newly generated input with function on change
+      $('input').on('change', handleOnChange);
     });
   }
 
+  /**
+   * Helper function generating checkbox list for home control system
+   * @method generateCheckBox
+   */
   function generateCheckBox(obj, type, shouldDisplay) {
     if (shouldDisplay === true) {
       var checkbox_name = obj.id + '_' + type;
@@ -42,6 +48,13 @@ var HOME_CONTROL = (function($) {
   }
 
   /**
+   * Helper function to handle input onchange
+   * @method handleOnChange
+   */
+  function handleOnChange(e) {
+  }
+
+  /**
    * Function being called on DOM ready
    * @method onReady
    */
@@ -49,7 +62,6 @@ var HOME_CONTROL = (function($) {
     module = themeModule || this;
     init();
   }
-
 
   /**
    * Return global function
