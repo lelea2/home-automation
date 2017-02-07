@@ -4,7 +4,7 @@
   "description": "home automation testing",
   "main": "index.js",
   "scripts": {
-    "start": "nodex index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
