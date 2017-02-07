@@ -33,8 +33,10 @@ var HOME_CONTROL_DASHBOARD = (function($) {
         var id = obj.id;
         window.setTimeout(function(id) {
           var element_svg = document.getElementById('floor-plan').contentDocument.getElementById(id);
-          element_svg.style.opacity = 0.5;
-          element_svg.style.fill = 'transparent';
+          if (!!element_svg) { //making sure that element is loaded in time of action
+            element_svg.style.opacity = 0.5;
+            element_svg.style.fill = 'transparent';
+          }
         }(id), 500);
       }
       var finalHTML = arr.join('');
