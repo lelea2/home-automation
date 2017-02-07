@@ -35,7 +35,7 @@ var HOME_CONTROL_DASHBOARD = (function($) {
           var element_svg = document.getElementById('floor-plan').contentDocument.getElementById(id);
           element_svg.style.opacity = 0.5;
           element_svg.style.fill = 'transparent';
-        }(id), 300);
+        }(id), 500);
       }
       var finalHTML = arr.join('');
       $('#control-room-panel').html(finalHTML);
