@@ -13,6 +13,8 @@ Deployed:
 
 * https://home-automation-khanh.herokuapp.com
 
+![alt tag](https://github.com/lelea2/home-automation/blob/master/demo.png)
+
 #### How to run
 
 **With nodejs server**
